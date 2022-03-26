@@ -1,0 +1,48 @@
+h1 {
+	text-align: center;
+}
+
+table {
+	margin: 0 auto;
+}
+
+table, td {
+	border: 2px solid darkgray;
+	border-collapse: collapse;
+}
+
+#answer {
+	height: 100px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 2rem;
+	padding-right: 20px;
+}
+
+.button {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2rem;
+	padding: 20px 40px;
+}
+
+.button:hover, #clear-btn:hover, #clear-btn:hover, #backspace-btn:hover, #divide-btn:hover, #multiply-btn:hover, #minus-btn:hover, #add-btn:hover {
+	background-color: #c2c2c2;
+	cursor: pointer;
+}
+
+#equals-btn {
+	background-color: #8cc6ff;
+}
+
+#equals-btn:hover {
+	background-color: #64b0fa;
+}
+
+#clear-btn, #backspace-btn, #divide-btn, #multiply-btn, #minus-btn, #add-btn {
+	background-color: #ebebeb;
+}
+
+#answer {
+	background-color: #dedede;
+}
